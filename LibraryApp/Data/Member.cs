@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace LibraryApp.Data
 {
-    internal class Member
+    public class Member
     {
+        public string Name { get; set; }
+        public string MemberId { get; set; }
+
     }
 }
